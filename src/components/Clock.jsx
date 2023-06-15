@@ -34,6 +34,7 @@ const Clock = () => {
     return () => {
       clearTimeout(clockInterval);
     };
+    // eslint-disable-next-line
   }, [time]);
 
   const handleEdit = () => {
